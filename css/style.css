@@ -13,5 +13,9 @@
 
 body {
     background-color: var(--color-secondary);
-    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20 10px;
 }
