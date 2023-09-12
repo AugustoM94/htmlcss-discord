@@ -46,7 +46,7 @@ header {
             }
 .reverse{
        display: flex;
-       flex-flow: row-reverse wrap;
+       flex-flow: row-reverse;
             }
 
 #hero {
@@ -98,6 +98,7 @@ padding: 0 100px;
     line-height: 1.8em;
     width: 40%;
     font-weight: 600;
+    margin-top: 70px;
 }
 li {
     list-style-type: none;
@@ -147,11 +148,7 @@ h2 {
 p {
     font-weight: 600;
 }
-.language {
-    width: 30px;
-    margin-top: 5px;
-    display: inline-block;
-}
+
 h5 {
     display: inline-block;
     font-size: 16px;
@@ -170,13 +167,6 @@ h5 {
 h3{
     line-height: 1.5em;
 }
-.section-language {
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    align-items: center;
-}
-
 
 .wave {
     display: block;
@@ -191,3 +181,53 @@ h3{
 .wave-reverse {
     transform: scaleY(-1);
 }
+.cl-black {
+    padding-bottom: 30px;
+    font-size: 1.8em;
+}
+.button-last {
+    background-color: var(--color-accessory);
+    color: var(--color-secondary);
+}
+.last-section {
+   padding-bottom:  60px;
+}
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between
+    align-items: center;
+    padding: 50px 0;
+}
+
+ .text-accessory {
+    color: var(--color-accessory);
+ }
+ .language {
+    width: 20%;
+ }
+ .section-li {
+    width: 80%;
+ }
+.flag {
+    width: 30px;
+ }
+ .section-flag{
+    display: inline-block;
+ }
+ .select {
+    display: inline-block;
+    margin-bottom: 5px;
+ }
+ .last-section{
+    border-top: 1px solid var(--color-accessory);
+    max-width: 1200px;
+   
+ }
+ .button-register {
+    min-height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: var(--color-accessory);
+ }

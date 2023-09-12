@@ -29,7 +29,7 @@
                         <h1>Il tuo posto per parlare</h1>
                         <p>Che tu faccia parte di un club scolastico,gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
                   <section class="button section">
-                        <input  class="button-white" type="button"  value="&#11107; Scarica per Mac">
+                        <input  class="button-white" type="button"  value="&#11107; Scarica per Mac">                    
                         <input class="button-black" type="button" value="Apri Discord nel tuo browser">
                  </section>   
              </div>
@@ -38,11 +38,11 @@
    </header>
    <main>
         <section class="">
-             <div class="container r-flex ">
-                  <div class="r-flex">
+             <div class="container r-flex f-center">
+                  <div>
                       <img class="logo" src="img/item1.svg" alt="Foto canali tematici">
                   </div>
-                  <div class="c-flex paragraph">
+                  <div class="paragraph">
                       <h2> Un luogo a invito con tutto lo spazio necessario per parlare</h2>
                       <p>I server discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornara senza intasare una chat di gruppo</p>
                   </div>
@@ -52,11 +52,11 @@
             <img class="wave" src="./img/wave.svg" alt="wave">
        </div>
         <section class="even">
-            <div class="container c-flex reverse even">
+            <div class="container r-flex f-center reverse even">
                 <div class=" reverse">
                     <img class="logo" src="img/item2.svg" alt="Foto canali tematici">
                 </div>
-                <div class=" f-center paragraph">
+                <div class="paragraph">
                         <h2> Dove trovarsi è facile</h2>
                     <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare</p>
                 </div>
@@ -66,37 +66,54 @@
             <img class="wave wave-reverse" src="./img/wave.svg" alt="wave">
        </div>
         <section>
-            <div class="container r-flex ">
-                <div class="r-flex">
+            <div class="container r-flex f-center ">
+                <div class="size">
                     <img class="logo" src="img/item3.svg" alt="Foto canali tematici">
                 </div>
-                <div class="c-flex paragraph">
+                <div class=" paragraph">
                     <h2>Da pochi a un fandom</h2>
                     <p>Dai inizio a una coomunity di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. <br> Concedi ai membri poteri speciali, crea canali privati , e molto altro</p>
                 </div>
             </div>
         </section>
-        <div><img class="wave" src="./img/wave.svg" alt="wave"></div>
-        <section class="even" >
-            <div class="container text-center">
-            <div class="text-center">
-               <h2>Tecnologia affidabile per tenersi in contatto</h2>
-               <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+              <div><img class="wave" src="./img/wave.svg" alt="wave"></div>
+        <section class="even last-section" >
+              <div class="container text-center">
+              <div class="text-center">
+                   <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                   <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
             </div>
             <div>
-                <img src="img/item4-big.svg" alt="big-image">
+                   <img src="img/item4-big.svg" alt="big-image">
             </div>
           </div>
-         
+         <div class="text-center">
+                 <h2 class="cl-black">Pronto a iniziare la tua avventura?</h2>
+         </div>
+         <div class="text-center ">
+                <input  class="button-white button-last" type="button"  value="&#11107; Scarica per Mac">                    
+         </div>
         </section>
     </main>
     <footer>
-        <section class="container section-language">
+        <section class="container flex-footer">
            <div class="language">
             <h3>Il tuo posto per parlare</h3>
-            <span>
-                <span class="text-white"><img src="img/ita.png" alt="Italian Flag"> Italiano <span class="arrow-down"> &or;</span>
-            </span>
+                <div class="section-flag">
+                    <img class="flag" src="img/ita.png" alt="Italian Flag">
+                </div>
+            <form action="#" class="select">
+                <select name="languages" id="lang">
+                  <option value="italiano"> <img src="img/ita.png" alt="Italian Flag">Italiano</option>
+                  <option value="brasile">Brasile</option>
+                  <option value="congolese">Congolese</option>
+                  <option value="ginosino">Ginosino</option>
+                  <option value="cinese">Cinese</option>
+                  <option value="tedesco">Tedesco</option>
+                  <option value="portoghese">Portoghese</option>
+                  <option value="napoletano">Napoletano</option>
+                </select>
+          </form>
                <div class="item">
                    <i class="fa-brands fa-twitter"></i>
                    <i class="fa-brands fa-instagram"></i>
@@ -104,10 +121,10 @@
                    <i class="fa-brands fa-youtube"></i>
                </div>
         </div>
-        <section class="section-language container">
-        <div class="ul">
+        <div>
+         <section class="section-li">   
            <ul> 
-             <h4>Prodotto</h4> 
+              <li class="text-accessory">Prodotto</li> 
               <li><a href=""></a>Scarica</li>
               <li><a href=""></a>Perchè Discord</li>
               <li><a href=""></a>Nitro</li>
@@ -115,9 +132,9 @@
               <li><a href=""></a>Assistenza</li>
           </ul>
      </div>
-     <div class="ul">
+     <div>
        <ul>
-            <h4>Compagnia</h4>
+             <li class="text-accessory">Compagnia</li>
              <li><a href=""></a>Chi Siamo</li>
              <li><a href=""></a>Lavora con noi</li>
              <li><a href=""></a>Marchio</li>
@@ -125,9 +142,9 @@
              <li><a href=""></a>Negozio</li>
        </ul>
     </div>
-    <div class="ul">
+    <div>
        <ul>
-           <h4>Risorse</h4> 
+            <li class="text-accessory">Risorse</li> 
             <li><a href=""></a>Scarica</li>
             <li><a href=""></a>Perchè Discord</li>
             <li><a href=""></a>Nitro</li>
@@ -140,9 +157,9 @@
             <li><a href=""></a>Assistenza</li>
        </ul>
     </div>
-    <div class="ul">
+    <div>
        <ul>
-          <h4>Scarica</h4>
+            <li class="text-accessory">Norme</li>
             <li><a href=""></a>Scarica</li>
             <li><a href=""></a>Perchè Discord</li>
             <li><a href=""></a>Nitro</li>
@@ -150,6 +167,14 @@
             <li><a href=""></a>Assistenza</li>
         </div>
       </section>
+     </section>
+     <section class="flex-footer last-section">
+        <div class=>
+            <img class="logo-header"  src="img/logo.svg" alt="logo discord">
+        </div>
+        <div >
+            <input  class="button-register" type="button"  value="Registrati">                    
+        </div>
      </section>
     </footer>
 </body>
