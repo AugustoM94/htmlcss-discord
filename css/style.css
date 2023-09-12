@@ -22,6 +22,8 @@ body {
 header {
     background-color:var(--color-header-bg);
        }
+
+/* flex */
  .d-flex {
         display: flex;
         justify-content: space-between;
@@ -30,8 +32,22 @@ header {
         flex-flow: row wrap;
     }
 .f-center{
-    justify-content: center;
-        }
+        justify-content: center;
+            }
+.r-flex {
+         display: flex;
+         flex-direction: row;
+            
+            }
+.c-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            }
+.reverse{
+       display: flex;
+       flex-flow: row-reverse wrap;
+            }
 
 #hero {
     background-image: url('../img/jumbo.png');
@@ -73,16 +89,7 @@ padding: 0 100px;
     color: var(--color-secondary);
 }
 
-.r-flex {
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-}
-.c-flex {
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-}
+
 .logo{
     margin-bottom: 30px;
 }
@@ -90,7 +97,6 @@ padding: 0 100px;
 .paragraph {
     line-height: 1.8em;
     width: 40%;
-    margin-top: 10px;
     font-weight: 600;
 }
 li {
@@ -122,6 +128,9 @@ h1 {
     text-align: center;
 }
 
+.text-center {
+    text-align: center;
+}
 
 
 footer {
@@ -130,13 +139,13 @@ footer {
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 48px;
     font-weight: 600px;
     line-height: 1.2em;
 }
 p {
-    font-weight: 400;
+    font-weight: 600;
 }
 .language {
     width: 30px;
@@ -156,9 +165,18 @@ h5 {
 }
  h3, h4 {
     color: var(--color-accessory);
-    display: inline-block;
 }
 
+h3{
+    line-height: 1.5em;
+}
 .section-language {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.wave {
+    background-image: url('../img/wave.svg');
 }
