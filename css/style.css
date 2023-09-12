@@ -21,6 +21,7 @@ body {
 }
 header {
     background-color:var(--color-header-bg);
+     margin-bottom: 60px;
        }
 
 /* flex */
@@ -100,6 +101,7 @@ padding: 0 100px;
     font-weight: 600;
     margin-top: 70px;
 }
+
 li {
     list-style-type: none;
     padding: 10px;
@@ -113,9 +115,11 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: var(--color-accessory);
 }
 li:hover {
     text-decoration: underline;
+    color: var(--color-accessory);
 }
 #hero p {
     display: block;
@@ -199,7 +203,10 @@ h3{
     align-items: center;
     padding: 50px 0;
 }
-
+.color-walk{
+    color: var(--color-accessory);
+    font-size: 24px;
+}
  .text-accessory {
     color: var(--color-accessory);
  }
@@ -219,7 +226,7 @@ h3{
     display: inline-block;
     margin-bottom: 5px;
  }
- .last-section{
+ .very-last-section{
     border-top: 1px solid var(--color-accessory);
     max-width: 1200px;
    
@@ -231,3 +238,20 @@ h3{
     font-size: 16px;
     background-color: var(--color-accessory);
  }
+.star {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+    padding-top: 40px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: top-center;
+}
+.size-image{
+width: 60%;
+min-width: 500px;
+}
+.size-text {
+width: 40%;
+min-width: 500px;
+}
